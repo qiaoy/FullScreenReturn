@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "QYMainNavViewController.h"
+#import "QYRedViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    QYRedViewController *redVC = [[QYRedViewController alloc] init];
+    QYMainNavViewController *nav = [[QYMainNavViewController alloc] initWithRootViewController:redVC];
+    self.window.rootViewController = nav;
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor grayColor]];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

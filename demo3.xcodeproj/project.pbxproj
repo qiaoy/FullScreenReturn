@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		D41876CE1E49CF0D00C18E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D41876CD1E49CF0D00C18E17 /* main.m */; };
 		D41876D11E49CF0D00C18E17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D41876D01E49CF0D00C18E17 /* AppDelegate.m */; };
-		D41876D41E49CF0D00C18E17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41876D31E49CF0D00C18E17 /* ViewController.m */; };
-		D41876D71E49CF0D00C18E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41876D51E49CF0D00C18E17 /* Main.storyboard */; };
 		D41876D91E49CF0D00C18E17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41876D81E49CF0D00C18E17 /* Assets.xcassets */; };
 		D41876DC1E49CF0D00C18E17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41876DA1E49CF0D00C18E17 /* LaunchScreen.storyboard */; };
 		D41876E71E49CF0D00C18E17 /* demo3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D41876E61E49CF0D00C18E17 /* demo3Tests.m */; };
 		D41876F21E49CF0D00C18E17 /* demo3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D41876F11E49CF0D00C18E17 /* demo3UITests.m */; };
+		D41877011E49CFB900C18E17 /* QYMainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41877001E49CFB900C18E17 /* QYMainNavViewController.m */; };
+		D41877071E49DC6100C18E17 /* QYRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41877061E49DC6100C18E17 /* QYRedViewController.m */; };
+		D418770A1E49DC7F00C18E17 /* QYBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41877091E49DC7F00C18E17 /* QYBlueViewController.m */; };
+		D418770D1E49DC8F00C18E17 /* QYGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D418770C1E49DC8F00C18E17 /* QYGreenViewController.m */; };
+		D41877101E49DCFB00C18E17 /* QYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D418770F1E49DCFB00C18E17 /* QYBaseViewController.m */; };
+		D41877161E4AFC3C00C18E17 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = D41877151E4AFC3C00C18E17 /* UIView+Positioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,6 @@
 		D41876CD1E49CF0D00C18E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D41876CF1E49CF0D00C18E17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D41876D01E49CF0D00C18E17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D41876D21E49CF0D00C18E17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D41876D31E49CF0D00C18E17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D41876D61E49CF0D00C18E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D41876D81E49CF0D00C18E17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D41876DB1E49CF0D00C18E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D41876DD1E49CF0D00C18E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,18 @@
 		D41876ED1E49CF0D00C18E17 /* demo3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41876F11E49CF0D00C18E17 /* demo3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo3UITests.m; sourceTree = "<group>"; };
 		D41876F31E49CF0D00C18E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41876FF1E49CFB900C18E17 /* QYMainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMainNavViewController.h; sourceTree = "<group>"; };
+		D41877001E49CFB900C18E17 /* QYMainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMainNavViewController.m; sourceTree = "<group>"; };
+		D41877051E49DC6100C18E17 /* QYRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYRedViewController.h; sourceTree = "<group>"; };
+		D41877061E49DC6100C18E17 /* QYRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYRedViewController.m; sourceTree = "<group>"; };
+		D41877081E49DC7F00C18E17 /* QYBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYBlueViewController.h; sourceTree = "<group>"; };
+		D41877091E49DC7F00C18E17 /* QYBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYBlueViewController.m; sourceTree = "<group>"; };
+		D418770B1E49DC8F00C18E17 /* QYGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYGreenViewController.h; sourceTree = "<group>"; };
+		D418770C1E49DC8F00C18E17 /* QYGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYGreenViewController.m; sourceTree = "<group>"; };
+		D418770E1E49DCFB00C18E17 /* QYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYBaseViewController.h; sourceTree = "<group>"; };
+		D418770F1E49DCFB00C18E17 /* QYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYBaseViewController.m; sourceTree = "<group>"; };
+		D41877141E4AFC3C00C18E17 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		D41877151E4AFC3C00C18E17 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +116,10 @@
 			children = (
 				D41876CF1E49CF0D00C18E17 /* AppDelegate.h */,
 				D41876D01E49CF0D00C18E17 /* AppDelegate.m */,
-				D41876D21E49CF0D00C18E17 /* ViewController.h */,
-				D41876D31E49CF0D00C18E17 /* ViewController.m */,
-				D41876D51E49CF0D00C18E17 /* Main.storyboard */,
+				D41876FF1E49CFB900C18E17 /* QYMainNavViewController.h */,
+				D41877001E49CFB900C18E17 /* QYMainNavViewController.m */,
+				D41877121E4AFB8500C18E17 /* Sections */,
+				D41877111E4AFB5300C18E17 /* Common */,
 				D41876D81E49CF0D00C18E17 /* Assets.xcassets */,
 				D41876DA1E49CF0D00C18E17 /* LaunchScreen.storyboard */,
 				D41876DD1E49CF0D00C18E17 /* Info.plist */,
@@ -138,6 +152,38 @@
 				D41876F31E49CF0D00C18E17 /* Info.plist */,
 			);
 			path = demo3UITests;
+			sourceTree = "<group>";
+		};
+		D41877111E4AFB5300C18E17 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D41877141E4AFC3C00C18E17 /* UIView+Positioning.h */,
+				D41877151E4AFC3C00C18E17 /* UIView+Positioning.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D41877121E4AFB8500C18E17 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				D41877131E4AFB9B00C18E17 /* ViewControllers */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		D41877131E4AFB9B00C18E17 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D41877051E49DC6100C18E17 /* QYRedViewController.h */,
+				D41877061E49DC6100C18E17 /* QYRedViewController.m */,
+				D41877081E49DC7F00C18E17 /* QYBlueViewController.h */,
+				D41877091E49DC7F00C18E17 /* QYBlueViewController.m */,
+				D418770B1E49DC8F00C18E17 /* QYGreenViewController.h */,
+				D418770C1E49DC8F00C18E17 /* QYGreenViewController.m */,
+				D418770E1E49DCFB00C18E17 /* QYBaseViewController.h */,
+				D418770F1E49DCFB00C18E17 /* QYBaseViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +253,7 @@
 				TargetAttributes = {
 					D41876C81E49CF0D00C18E17 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6Z7VF9XPAK;
 						ProvisioningStyle = Automatic;
 					};
 					D41876E11E49CF0D00C18E17 = {
@@ -248,7 +295,6 @@
 			files = (
 				D41876DC1E49CF0D00C18E17 /* LaunchScreen.storyboard in Resources */,
 				D41876D91E49CF0D00C18E17 /* Assets.xcassets in Resources */,
-				D41876D71E49CF0D00C18E17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41876D41E49CF0D00C18E17 /* ViewController.m in Sources */,
+				D41877161E4AFC3C00C18E17 /* UIView+Positioning.m in Sources */,
+				D418770D1E49DC8F00C18E17 /* QYGreenViewController.m in Sources */,
+				D418770A1E49DC7F00C18E17 /* QYBlueViewController.m in Sources */,
 				D41876D11E49CF0D00C18E17 /* AppDelegate.m in Sources */,
+				D41877101E49DCFB00C18E17 /* QYBaseViewController.m in Sources */,
 				D41876CE1E49CF0D00C18E17 /* main.m in Sources */,
+				D41877071E49DC6100C18E17 /* QYRedViewController.m in Sources */,
+				D41877011E49CFB900C18E17 /* QYMainNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +362,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D41876D51E49CF0D00C18E17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D41876D61E49CF0D00C18E17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D41876DA1E49CF0D00C18E17 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,7 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Z7VF9XPAK;
 				INFOPLIST_FILE = demo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qy.test.demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +480,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6Z7VF9XPAK;
 				INFOPLIST_FILE = demo3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qy.test.demo3;
 				PRODUCT_NAME = "$(TARGET_NAME)";

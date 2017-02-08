@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QYMainNavViewController.h
 //  demo3
 //
 //  Created by 乔岩 on 2017/2/7.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface QYMainNavViewController : UINavigationController
 
+@property (nonatomic, assign) BOOL isCanDragBack;
 
 @end
-
